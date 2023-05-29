@@ -5,15 +5,23 @@ import BasicLayout from '@/layouts/BasicLayout/index.vue';
 export const frameIn: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/example',
+    redirect: '/index',
     component: BasicLayout,
     children: [
       {
-        path: 'example',
-        name: 'Example',
+        path: 'index',
+        name: 'Index',
         component: () => import('@/views/example/index.vue'),
         meta: {
-          title: '示例',
+          title: 'Index',
+        },
+      },
+      {
+        path: 'detail',
+        name: 'Detail',
+        component: () => import('@/views/example/detail.vue'),
+        meta: {
+          title: 'Detail',
         },
       },
     ],
