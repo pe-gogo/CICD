@@ -10,38 +10,44 @@
           <el-carousel-item>
             <img src="/shoes/p1/p2.jpg" class="object-cover h-full w-full" />
           </el-carousel-item>
+          <el-carousel-item>
+            <img src="/shoes/p1/p3.jpg" class="object-cover h-full w-full" />
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="/shoes/p1/p4.jpg" class="object-cover h-full w-full" />
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="/shoes/p1/p5.png" class="object-cover h-full w-full" />
+          </el-carousel-item>
         </el-carousel>
       </div>
 
       <div class="w-1/2 pl-6">
         <!-- 商品标题 -->
-        <h2 class="text-2xl font-bold text-black mb-2">Product Title</h2>
+        <h2 class="text-2xl font-bold text-black mb-2">우주시리즈 귀여운 시트 세트</h2>
         <hr class="mb-4" />
 
         <!-- 价格 -->
-        <p class="text-lg font-bold text-black mb-4">$99.99</p>
+        <p class="text-lg font-bold text-black mb-4">₩160000</p>
 
         <!-- 描述 -->
         <p class="text-sm text-gray-600 mb-4">
-          This is a product description. It provides more details about the product.
+          침대 시트*1 이불커버*1 베갯잇*2
         </p>
 
         <!-- 规格选择 -->
         <div class="mb-6">
           <label for="size" class="block mb-2 text-gray-600">Size:</label>
           <select id="size" class="block w-full border px-4 py-2">
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
+            <option>1.2m</option>
+            <option>1.5m</option>
           </select>
         </div>
 
         <div class="mb-6">
           <label for="color" class="block mb-2 text-gray-600">Color:</label>
           <select id="color" class="block w-full border px-4 py-2">
-            <option>Red</option>
-            <option>Blue</option>
-            <option>Green</option>
+            <option>Yello</option>
           </select>
         </div>
 
@@ -55,10 +61,20 @@
     <div class="my-6">
       <h3 class="text-black text-xl font-bold mb-2">DETAIL</h3>
       <hr class="mb-4" />
+    
       <img
-        src="https://brand.evezary.co.kr/img/product_copyright.jpg"
+        src="/shoes/p1/p1.jpg"
         class="w-full object-contain"
       />
+      <img
+        src="/shoes/p1/p2.jpg"
+        class="w-full object-contain"
+      />
+      <img
+        src="/shoes/p1/p3.jpg"
+        class="w-full object-contain"
+      />
+     
     </div>
   </div>
 </template>
